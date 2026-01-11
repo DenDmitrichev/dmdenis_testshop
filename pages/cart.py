@@ -1,6 +1,6 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from pages.locators import cart_locators as cart_loc
+from locators import cart_locators as cart_loc
 from pages.tables import Table
 
 

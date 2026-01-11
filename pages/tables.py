@@ -1,12 +1,8 @@
-from selenium.webdriver.common.keys import Keys
-from time import sleep
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from pages.base_page import BasePage
-from pages.locators import tables_locators as loc
-from pages.locators import cart_locators as card_loc
+from locators import tables_locators as loc, cart_locators as card_loc
 
 
 class Table(BasePage):

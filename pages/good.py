@@ -1,7 +1,7 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from pages.base_page import BasePage
-from pages.locators import good_locators as good_loc
+from locators import good_locators as good_loc
 
 
 class Good(BasePage):
