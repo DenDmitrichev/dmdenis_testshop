@@ -1,1 +1,0 @@
-# dmdenis_testshop
